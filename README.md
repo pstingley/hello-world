@@ -1,19 +1,14 @@
-# Procedures
-Download the package name, version from BigFix
-Sort it and count it (to bring it down to a size that Excel can use it)
-  by running the python program as follows:
-sort_n_count_BFI_4_20_2021.py <file to sort and count>
+# Automated Enterprise Architecture
+This combination of a Python program and an Excel Spreadsheet
+is designed to take the software package names and versions
+from BigFix, sort them, count them and align the software first
+with an augmented form of the Federal Enterprise Architecture
+Framework (FEAF) and then with the categories of the TBM Framework.
 
-Open the template spreadsheet in Excel
+The Python program has been tested using Python 2.7 to 3.9
 
-Open resulting file in notepad
+Please refer to the PowerPoint for a description with images
+and to the Procedures.txt for instructions.
 
-copy all of the contents using
-<CTRL><A>
-<CTRL><C>
-
-Paste over the contents of the Products sheet in the Excel worksheet
-Copy the sheet titled TRM-Index
-Paste as literal values over the sheet titled TRM.
-Save.
-The macros in the worksheet will do the rest.
+The Python program has been written for utter simplicity
+so that non-programmers can follow it.
